@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE>ファイルのアップロードテスト</TITLE>
+<MTEA http-equiv="Content-Type" content="text/html; charset = utf-8">
+</MTEA>
+
+<BODY bgcolor = "#FFFFFF" text="#0000000">
+<FONT size="4">ファイルのアップロードテスト</FONT>
+<FORM name="form1" method = "post" action = "view.php" enctype = "multipart/form-data">
+<INPUT type="hidden" name="MAX_FILE_SIZE" value="100000">
+画像
+<INPUT type="file" name="uploadfile">
+<br>
+説明：
+<INPUT type="text" name="comment">
+<br>
+<br>
+<INPUT type="submit" value="ファイルアップロード">
+</FORM>
+</BODY>
+<HTML>
