@@ -4,6 +4,8 @@
   </HEAD>
   <BODY>
     <?php
+        echo sys_get_temp_dir();
+
         $file_dir = 'Applications/MAMP/htdoccs/php_05/php_0504/image/';
         var_dump($_FILES);
         $file_path = $file_dir.$_FILES["uploadfile"]["name"];
